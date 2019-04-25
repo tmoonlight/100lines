@@ -477,7 +477,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.2.0": {
-      "sha512": "qIrVLupwT2NYTrf7KM7Nh+mJr36V5MITVRjyGOByVVCwGmQgQmI/6bjZYQv+QdExi4Cm87eCKJX9FdT6nc00Xg==",
+      "sha512": "OK/H8p9Ig6mLMITjXJ4VOewrJg/TU+dAPHE4BdMWMv+8COzBehf7XF1+DofKkmqdHpO2cJoS5Sc9PEZ6PKCbsg==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.2.0",
       "files": [
@@ -687,30 +687,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator.-20171206IUEUWS\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "X:\\Users\\shaoh\\.nuget\\packages\\": {},
+    "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\100Lines\\100Lines.csproj",
+      "projectUniqueName": "E:\\3000开元\\100lines\\src\\100Lines\\100Lines.csproj",
       "projectName": "100Lines",
-      "projectPath": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\100Lines\\100Lines.csproj",
-      "packagesPath": "C:\\Users\\Administrator.-20171206IUEUWS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\100Lines\\obj\\",
+      "projectPath": "E:\\3000开元\\100lines\\src\\100Lines\\100Lines.csproj",
+      "packagesPath": "X:\\Users\\shaoh\\.nuget\\packages\\",
+      "outputPath": "E:\\3000开元\\100lines\\src\\100Lines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "X:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator.-20171206IUEUWS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "X:\\Users\\shaoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "x:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "X:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

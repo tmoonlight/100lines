@@ -37,16 +37,16 @@ namespace HashFile
                 if (keyLen == k.Length)
                 {
                     rf.Read(key);
-                    int valueLen = br.ReadInt32();
+                    int valueLen = br.ReadInt32();//判断该位置是否有值
                     if (Enumerable.SequenceEqual(key, k))
                     {
                         if (valueLen == v.Length)
-                        { // new value is of the same size, reuse the space
+                        { //有值且大小相同，则直接复写重用
                             bw.Write(v);
                             return;
                         }
                         else
-                        { // allocate new space, remove the old item (not physically)
+                        { //有值且大小不同，则标记删除 (not physically)
                             removeFlag = true;
                             break;
                         }
@@ -59,6 +59,7 @@ namespace HashFile
                 }
                 else
                 {
+                    //key|value
                     rf.Seek(keyLen, SeekOrigin.Current);
                     int valueLen = br.ReadInt32();
                     bw.Seek(valueLen, SeekOrigin.Current);
@@ -74,7 +75,7 @@ namespace HashFile
             rf.Position = i;
             long head = br.ReadInt64();
             long pos = rf.Length;
-            // 插入新的数据
+            // 插入新的数据keylength|key|valuelength|value|head
             rf.Position = pos;
             bw.Write(k.Length);
             bw.Write(k);
@@ -86,7 +87,6 @@ namespace HashFile
         }
         public byte[] Get(byte[] k)
         {
-
             long i = Math.Abs(ComputeHash(k)) % tableSize * 8;
             rf.Position = i;
             byte[] key = new byte[k.Length];
@@ -167,7 +167,7 @@ namespace HashFile
             rf.Close();
         }
 
-        public void manageFragment()
+        public void ManageFragment()
         {
             // garbage collection, compact the data file
         }
