@@ -1,0 +1,11 @@
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\bin\Debug\netcoreapp2.2\NSmartFile.deps.json
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\bin\Debug\netcoreapp2.2\NSmartFile.runtimeconfig.json
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\bin\Debug\netcoreapp2.2\NSmartFile.runtimeconfig.dev.json
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\bin\Debug\netcoreapp2.2\NSmartFile.dll
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\bin\Debug\netcoreapp2.2\NSmartFile.pdb
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\obj\Debug\netcoreapp2.2\NSmartFile.csprojAssemblyReference.cache
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\obj\Debug\netcoreapp2.2\NSmartFile.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\obj\Debug\netcoreapp2.2\NSmartFile.AssemblyInfoInputs.cache
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\obj\Debug\netcoreapp2.2\NSmartFile.AssemblyInfo.cs
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\obj\Debug\netcoreapp2.2\NSmartFile.dll
+C:\Users\Administrator.-20171206IUEUWS\source\repos\NSmartFile\NSmartFile\obj\Debug\netcoreapp2.2\NSmartFile.pdb
