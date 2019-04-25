@@ -11,7 +11,7 @@ namespace NSmartFile
             //Console.WriteLine("Hello World!");
             var hash = new HashFile("c:\\hash1.db");
             string str = "10";
-            string value = "qw";
+            string value = "only ascii";
             hash.Put(System.Text.ASCIIEncoding.ASCII.GetBytes(str),
 
                 System.Text.ASCIIEncoding.ASCII.GetBytes(value)

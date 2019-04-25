@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\NSmartFile\\NSmartFile.csproj",
-      "projectName": "NSmartFile",
-      "projectPath": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\NSmartFile\\NSmartFile.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\100Lines\\100Lines.csproj",
+      "projectName": "100Lines",
+      "projectPath": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\100Lines\\100Lines.csproj",
       "packagesPath": "C:\\Users\\Administrator.-20171206IUEUWS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\NSmartFile\\obj\\",
+      "outputPath": "C:\\Users\\Administrator.-20171206IUEUWS\\source\\repos\\NSmartFile\\100Lines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

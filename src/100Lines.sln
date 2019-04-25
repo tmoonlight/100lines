@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSmartFile", "NSmartFile\NSmartFile.csproj", "{3AB1A6FB-3DFC-4D41-A8D8-0EA2FC0B4F9E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{48B53FCF-CFEC-4456-AEAC-0973BEDBD693}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100Lines", "100Lines\100Lines.csproj", "{3AB1A6FB-3DFC-4D41-A8D8-0EA2FC0B4F9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
