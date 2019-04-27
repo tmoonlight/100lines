@@ -1,0 +1,17 @@
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.deps.json
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.runtimeconfig.json
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.runtimeconfig.dev.json
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.dll
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.pdb
+E:\3000开元\100lines\src\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csprojAssemblyReference.cache
+E:\3000开元\100lines\src\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csproj.CoreCompileInputs.cache
+E:\3000开元\100lines\src\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.AssemblyInfoInputs.cache
+E:\3000开元\100lines\src\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.AssemblyInfo.cs
+E:\3000开元\100lines\src\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.dll
+E:\3000开元\100lines\src\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.pdb
+E:\3000开元\100lines\src\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csproj.CopyComplete
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\OneHundredLines.dll
+E:\3000开元\100lines\src\NUnitTestProject1\bin\Debug\netcoreapp2.2\OneHundredLines.pdb

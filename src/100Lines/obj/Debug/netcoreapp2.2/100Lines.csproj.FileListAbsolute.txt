@@ -1,0 +1,11 @@
+E:\3000开元\100lines\src\100Lines\obj\Debug\netcoreapp2.2\100Lines.csprojAssemblyReference.cache
+E:\3000开元\100lines\src\100Lines\obj\Debug\netcoreapp2.2\100Lines.csproj.CoreCompileInputs.cache
+E:\3000开元\100lines\src\100Lines\obj\Debug\netcoreapp2.2\100Lines.AssemblyInfoInputs.cache
+E:\3000开元\100lines\src\100Lines\obj\Debug\netcoreapp2.2\100Lines.AssemblyInfo.cs
+E:\3000开元\100lines\src\100Lines\bin\Debug\netcoreapp2.2\OneHundredLines.deps.json
+E:\3000开元\100lines\src\100Lines\bin\Debug\netcoreapp2.2\OneHundredLines.runtimeconfig.json
+E:\3000开元\100lines\src\100Lines\bin\Debug\netcoreapp2.2\OneHundredLines.runtimeconfig.dev.json
+E:\3000开元\100lines\src\100Lines\bin\Debug\netcoreapp2.2\OneHundredLines.dll
+E:\3000开元\100lines\src\100Lines\bin\Debug\netcoreapp2.2\OneHundredLines.pdb
+E:\3000开元\100lines\src\100Lines\obj\Debug\netcoreapp2.2\OneHundredLines.dll
+E:\3000开元\100lines\src\100Lines\obj\Debug\netcoreapp2.2\OneHundredLines.pdb

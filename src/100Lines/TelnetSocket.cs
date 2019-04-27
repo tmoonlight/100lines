@@ -7,37 +7,36 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ChatConsole
+namespace OneHundredLines
 {
-    class Program
+
+
+    class TelnetSocket
     {
-
-        class TelnetSocket
+        private TelnetSocket()
         {
-            private TelnetSocket()
-            {
-            }
-
-            public static TelnetSocket CreateSocket(Socket socket)
-            {
-                TelnetSocket telnetSocket = new TelnetSocket();
-                telnetSocket.NetWorkStream = new NetworkStream(socket);
-                telnetSocket.StreamReader = new StreamReader(telnetSocket.NetWorkStream);
-                telnetSocket.StreamWriter = new StreamWriter(telnetSocket.NetWorkStream);
-                telnetSocket.Socket = socket;
-                return telnetSocket;
-            }
-
-            public Socket Socket { get; set; }
-
-            public StreamWriter StreamWriter { get; set; }
-
-            public StreamReader StreamReader { get; set; }
-
-            public NetworkStream NetWorkStream { get; set; }
         }
 
-        static void Main(string[] args)
+        public static TelnetSocket CreateSocket(Socket socket)
+        {
+            TelnetSocket telnetSocket = new TelnetSocket();
+            telnetSocket.NetWorkStream = new NetworkStream(socket);
+            telnetSocket.StreamReader = new StreamReader(telnetSocket.NetWorkStream);
+            telnetSocket.StreamWriter = new StreamWriter(telnetSocket.NetWorkStream);
+            telnetSocket.Socket = socket;
+            return telnetSocket;
+        }
+
+        public Socket Socket { get; set; }
+
+        public StreamWriter StreamWriter { get; set; }
+
+        public StreamReader StreamReader { get; set; }
+
+        public NetworkStream NetWorkStream { get; set; }
+
+
+        static void Start(string[] args)
         {
             Console.WriteLine("Hello World!");
             Socket skt = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -93,6 +92,7 @@ namespace ChatConsole
                                 //StopFlag = false;
                                 IsConnected = true;
                             }
+
                             if (!telnetSocket.Socket.Connected)
                             {
                                 //StopFlag = false;

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace HashFile
+namespace OneHundredLines
 {
     public class HashFile
     {
@@ -28,6 +29,7 @@ namespace HashFile
             //key的hash位置
             long i = (Math.Abs(ComputeHash(k)) % tableSize) * 8;
             rf.Position = i;
+            Trace.WriteLine($"{ComputeHash(k)}/{tableSize} ={i}");
             byte[] key = new byte[k.Length];
             bool removeFlag = false;
             for (long p = br.ReadInt64(); p != 0;)
@@ -189,6 +191,22 @@ namespace HashFile
                 hash += hash << 5;
                 return hash;
             }
+            //int ulValue = 0;
+            //int ulHi;
+
+            //// Size of CRC window (hashing bytes, ssstr, sswstr, numeric)
+            //const int x_cbCrcWindow = 4;
+            //// const int iShiftVal = (sizeof ulValue) * (8*sizeof(char)) - x_cbCrcWindow;
+            //const int iShiftVal = 4 * 8 - x_cbCrcWindow;
+
+            //for (int i = 0; i < data.Length; i++)
+            //{
+            //    ulHi = (ulValue >> iShiftVal) & 0xff;
+            //    ulValue <<= x_cbCrcWindow;
+            //    ulValue = ulValue ^ data[i] ^ ulHi;
+            //}
+
+            //return ulValue;
         }
     }
 
