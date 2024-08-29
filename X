@@ -1,0 +1,48 @@
+#include <windows.h>
+#include <dbghelp.h>
+#include <tchar.h>
+#include <iostream>
+#include <fstream>
+
+#pragma comment(lib, "dbghelp.lib")
+
+// 异常处理回调函数
+LONG WINAPI UnhandledExceptionFilter1(EXCEPTION_POINTERS* pExceptionInfo) {
+    // 生成Minidump文件的文件名
+    TCHAR szFileName[MAX_PATH] = { 0 };
+    SYSTEMTIME st;
+    GetLocalTime(&st);
+    _stprintf_s(szFileName, _T("HAHAHA%04d%02d%02d_%02d%02d%02d.dmp"),
+        st.wYear, st.wMonth, st.wDay, st.wHour, st.wMinute, st.wSecond);
+
+    // 打开文件
+    HANDLE hFile = CreateFile(szFileName, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+    if (hFile != INVALID_HANDLE_VALUE) {
+        // 写入Minidump
+        MINIDUMP_EXCEPTION_INFORMATION mdei;
+        mdei.ThreadId = GetCurrentThreadId();
+        mdei.ExceptionPointers = pExceptionInfo;
+        mdei.ClientPointers = FALSE;
+
+        MiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(), hFile, MiniDumpNormal, &mdei, NULL, NULL);
+        CloseHandle(hFile);
+    }
+
+    return EXCEPTION_EXECUTE_HANDLER;
+}
+
+// 模拟崩溃的函数
+void Crash() {
+    int* p = nullptr;
+    *p = 0;  // 触发崩溃
+}
+
+int main() {
+    // 设置异常处理函数
+    SetUnhandledExceptionFilter(UnhandledExceptionFilter1);
+
+    // 运行导致崩溃的代码
+    Crash();
+
+    return 0;
+}
